@@ -1,0 +1,1 @@
+I'm not sure if this will be an issue but for some reason It could not find my libqt5core.so.5 file when I tried to compile it so I ran this command I found on stack overflow: strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5 and it fixed it so if it doesn't properly run try that if you can.
